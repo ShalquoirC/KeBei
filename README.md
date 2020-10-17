@@ -1,24 +1,8 @@
----
-name: Xamarin.Forms - Xaminals
-description: "Xamarin.Forms Shell reduces the complexity of mobile application development by providing fundamental features #shell (UI)"
-page_type: sample
-languages:
-- csharp
-products:
-- xamarin
-extensions:
-    tags:
-    - ui
-    - shell
-urlFragment: userinterface-xaminals
----
-# Xaminals
+主要框架暂定这个
+目前完成主页面，学科页面， （成绩/班级 需要做出来)
+*保留了一个cat的操作样本（教程可以参照*
+*https://docs.microsoft.com/zh-cn/xamarin/xamarin-forms/app-fundamentals/shell/introduction*
 
-Xamarin.Forms Shell reduces the complexity of mobile application development by providing the fundamental features that most mobile applications require. This includes a common navigation user experience, a URI-based navigation scheme, and an integrated search handler.
+页面功能需要大家来分锅，（主页面，学课页面  在.xaml页面上用label标识出来了）
 
-This sample demonstrates a Xamarin.Forms Shell application.
-
-For more information about this sample, see [Xamarin.Forms Shell](https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/).
-
-![Xaminals application screenshot](Screenshots/01All.png "Xaminals application screenshot")
-
+# 准备10.18晚上定一下锅 #
