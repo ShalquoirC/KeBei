@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "dgSpecHash": "ymih5I6ehRlBCQwFmPq2YKmbWCMR9IRgNQaxyjJa9EqZ9pII96mXoeF/h8avfASR+5dNAuZcmyAEHOp8mDhikA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals.UWP\\Xaminals.UWP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.7-rel-27913-00\\microsoft.net.native.compiler.2.2.7-rel-27913-00.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.9\\microsoft.net.uwpcoreruntimesdk.2.2.9.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.9\\microsoft.netcore.universalwindowsplatform.6.2.9.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\microsoft.ui.xaml\\2.4.2\\microsoft.ui.xaml.2.4.2.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.9\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.9.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.compiler\\2.2.7-rel-27913-00\\runtime.win10-arm.microsoft.net.native.compiler.2.2.7-rel-27913-00.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.sharedlibrary\\2.2.7-rel-27913-00\\runtime.win10-arm.microsoft.net.native.sharedlibrary.2.2.7-rel-27913-00.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\\2.2.9\\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk.2.2.9.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\runtime.win10-arm.microsoft.netcore.universalwindowsplatform\\6.2.9\\runtime.win10-arm.microsoft.netcore.universalwindowsplatform.6.2.9.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\runtime.win10-arm64-aot.microsoft.netcore.universalwindowsplatform\\6.2.9\\runtime.win10-arm64-aot.microsoft.netcore.universalwindowsplatform.6.2.9.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\runtime.win10-arm64.microsoft.net.native.compiler\\2.2.7-rel-27913-00\\runtime.win10-arm64.microsoft.net.native.compiler.2.2.7-rel-27913-00.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\runtime.win10-arm64.microsoft.net.native.sharedlibrary\\2.2.7-rel-27913-00\\runtime.win10-arm64.microsoft.net.native.sharedlibrary.2.2.7-rel-27913-00.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\\6.2.9\\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform.6.2.9.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\runtime.win10-x64.microsoft.net.native.compiler\\2.2.7-rel-27913-00\\runtime.win10-x64.microsoft.net.native.compiler.2.2.7-rel-27913-00.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\runtime.win10-x64.microsoft.net.native.sharedlibrary\\2.2.7-rel-27913-00\\runtime.win10-x64.microsoft.net.native.sharedlibrary.2.2.7-rel-27913-00.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\\2.2.9\\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk.2.2.9.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\\6.2.9\\runtime.win10-x64.microsoft.netcore.universalwindowsplatform.6.2.9.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform\\6.2.9\\runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform.6.2.9.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\runtime.win10-x86.microsoft.net.native.compiler\\2.2.7-rel-27913-00\\runtime.win10-x86.microsoft.net.native.compiler.2.2.7-rel-27913-00.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\runtime.win10-x86.microsoft.net.native.sharedlibrary\\2.2.7-rel-27913-00\\runtime.win10-x86.microsoft.net.native.sharedlibrary.2.2.7-rel-27913-00.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\\2.2.9\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.2.9.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.9\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.9.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\win2d.uwp\\1.20.0\\win2d.uwp.1.20.0.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\xamarin.forms\\4.8.0.1269\\xamarin.forms.4.8.0.1269.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "检测到包降级: Microsoft.NETCore.UniversalWindowsPlatform 从 6.2.10 降级到 6.2.9。直接从项目引用包以选择不同版本。 \r\n Xaminals.UWP -> Xamarin.Forms 4.8.0.1269 -> Microsoft.NETCore.UniversalWindowsPlatform (>= 6.2.10) \r\n Xaminals.UWP -> Microsoft.NETCore.UniversalWindowsPlatform (>= 6.2.9)",
+      "libraryId": "Microsoft.NETCore.UniversalWindowsPlatform",
+      "targetGraphs": [
+        "UAP,Version=v10.0.17763",
+        "UAP,Version=v10.0.17763/win10-arm",
+        "UAP,Version=v10.0.17763/win10-arm-aot",
+        "UAP,Version=v10.0.17763/win10-arm64-aot",
+        "UAP,Version=v10.0.17763/win10-x64",
+        "UAP,Version=v10.0.17763/win10-x64-aot",
+        "UAP,Version=v10.0.17763/win10-x86",
+        "UAP,Version=v10.0.17763/win10-x86-aot"
+      ]
+    }
+  ]
+}

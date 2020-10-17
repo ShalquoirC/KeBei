@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xaminals.Views.LearnPage"
+             Title="备课主页面">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="20">
+                <Label Text="开始备课（到备课界面）"
+                   TextColor="ForestGreen"/>
+                <Label Text="已经有的备课记录"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <Label Text="{Binding Name}" 
+                   HorizontalOptions="Center" 
+                   Style="{DynamicResource TitleStyle}" />
+                <Label Text="{Binding Location}" 
+                   FontAttributes="Italic" 
+                   HorizontalOptions="Center" />
+                <Image Source="{Binding ImageUrl}" 
+                   HeightRequest="200" 
+                   WidthRequest="200" 
+                   HorizontalOptions="CenterAndExpand" />
+                <Label Text="{Binding Details}" 
+                   Style="{DynamicResource BodyStyle}" />
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>
