@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Xaminals.Views.SubjectMangeDetail.xaml", "Views/SubjectMangeDetail.xaml", typeof(global::Xaminals.Views.SubjectMangeDetail))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("KeBei.Views.SubjectMangeDetail.xaml", "Views/SubjectMangeDetail.xaml", typeof(global::KeBei.Views.SubjectMangeDetail))]
 
-namespace Xaminals.Views {
+namespace KeBei.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\SubjectMangeDetail.xaml")]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6ilvzdFDc3mudsgP9l+SFkDvhLuZ7lEPfg51G1B6zDBi0DXftGJwwp0nLX7r5H/488lU0GhEMFSAMb+19NRRtQ==",
+  "dgSpecHash": "fVtpGwSQMvAm9vvPqKRb36OrgCsDFc5VLd4txPXqaWsybKLW32HsLIhBEezdNpOjImOtw1sHpQslLAkfg2SKWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals.Android\\Xaminals.Android.csproj",
+  "projectFilePath": "E:\\C#\\Xaminals\\Xaminals.Android\\KeiBei.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MECHREVO\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",

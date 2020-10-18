@@ -2,7 +2,7 @@
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
-namespace Xaminals
+namespace KeBei
 {
     public partial class App : Application
     {

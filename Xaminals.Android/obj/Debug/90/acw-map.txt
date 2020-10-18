@@ -1,6 +1,6 @@
-Xaminals.Droid.MainActivity, Xaminals.Android;crc649c546b802d1e9379.MainActivity
-Xaminals.Droid.MainActivity;crc649c546b802d1e9379.MainActivity
-xaminals.droid.MainActivity;crc649c546b802d1e9379.MainActivity
+KeBei.Droid.MainActivity, 课贝.Android;crc64ea35509c08e7a49d.MainActivity
+KeBei.Droid.MainActivity;crc64ea35509c08e7a49d.MainActivity
+kebei.droid.MainActivity;crc64ea35509c08e7a49d.MainActivity
 Android.Support.V4.View.AsyncLayoutInflater+IOnInflateFinishedListenerImplementor, Xamarin.Android.Support.AsyncLayoutInflater;mono.android.support.v4.view.AsyncLayoutInflater_OnInflateFinishedListenerImplementor
 Android.Support.V4.View.AsyncLayoutInflater.IOnInflateFinishedListenerImplementor;mono.android.support.v4.view.AsyncLayoutInflater_OnInflateFinishedListenerImplementor
 mono.android.support.v4.view.AsyncLayoutInflater_OnInflateFinishedListenerImplementor;mono.android.support.v4.view.AsyncLayoutInflater_OnInflateFinishedListenerImplementor

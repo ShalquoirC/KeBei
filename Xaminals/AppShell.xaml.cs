@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Essentials;
 using Xamarin.Forms;
-using Xaminals.Data;
-using Xaminals.Views;
+using KeBei.Data;
+using KeBei.Views;
 
-namespace Xaminals
+namespace KeBei
 {
     public partial class AppShell : Shell
     {
@@ -33,6 +33,7 @@ namespace Xaminals
             routes.Add("catdetails", typeof(CatDetailPage));
             routes.Add("learndetails", typeof(LearnDetailPage));
             routes.Add("SubjectMange", typeof(SubjectMangeDetail));
+            
 
             foreach (var item in routes)
             {

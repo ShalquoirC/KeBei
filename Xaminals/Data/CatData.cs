@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Xaminals.Models;
+using KeBei.Models;
 
-namespace Xaminals.Data
+namespace KeBei.Data
 {
     public static class CatData
     {

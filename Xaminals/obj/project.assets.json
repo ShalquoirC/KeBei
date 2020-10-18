@@ -639,11 +639,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals\\Xaminals.csproj",
-      "projectName": "Xaminals",
-      "projectPath": "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals\\Xaminals.csproj",
+      "projectUniqueName": "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj",
+      "projectName": "课贝",
+      "projectPath": "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj",
       "packagesPath": "C:\\Users\\MECHREVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals\\obj\\",
+      "outputPath": "E:\\C#\\Xaminals\\Xaminals\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

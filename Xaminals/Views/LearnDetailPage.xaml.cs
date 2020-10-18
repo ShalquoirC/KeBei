@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Xaminals.Views
+namespace KeBei.Views
 {
     public partial class LearnDetailPage : ContentPage
     {

@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Shell xmlns="http://xamarin.com/schemas/2014/forms"
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-       xmlns:controls="clr-namespace:Xaminals.Controls"
-       xmlns:views="clr-namespace:Xaminals.Views"
+       xmlns:controls="clr-namespace:KeBei.Controls"
+       xmlns:views="clr-namespace:KeBei.Views"
        FlyoutBackgroundImage="photo.jpg"
        FlyoutBackgroundImageAspect="AspectFill"
        FlyoutHeaderBehavior="CollapseOnScroll"
        Navigating="OnNavigating"
        Navigated="OnNavigated"
-       x:Class="Xaminals.AppShell">
+       x:Class="KeBei.AppShell">
     <Shell.Resources>
         <Style x:Key="BaseStyle"
                TargetType="Element">
@@ -108,16 +108,16 @@
     </Shell.MenuItemTemplate>-->
 
     <FlyoutItem Route="animals"
-                Title="Animals"
+                Title="课贝"
                 FlyoutDisplayOptions="AsMultipleItems">
-        <Tab Title="Domestic"
+        <Tab Title="备课"
              Route="domestic"
-             Icon="paw.png">
-            <ShellContent Route="cats"
-                          Style="{StaticResource DomesticShell}"
-                          Title="Cats"
-                          Icon="cat.png"
-                          ContentTemplate="{DataTemplate views:CatsPage}" />
+             Icon="">
+            <ShellContent Route="learn"
+                          Style="{StaticResource LearnShell}"
+                          Title="主页"
+                          Icon=""
+                          ContentTemplate="{DataTemplate views:LearnPage}"/>
         </Tab>
 
         <!--
@@ -132,22 +132,18 @@
                
         -->
         
-        <!--<ShellContent Route="monkeys"
-                      Style="{StaticResource MonkeysShell}"
-                      Title="Monkeys"
-                      Icon="monkey.png"
-                      ContentTemplate="{DataTemplate views:MonkeysPage}" />-->
-        <ShellContent Route="learn"
-                      Style="{StaticResource LearnShell}"
-                      Title="learn"
-                      Icon=""
-                      ContentTemplate="{DataTemplate views:LearnPage}" />
+
         <ShellContent Route="subject"
                       Style="{StaticResource LearnShell}"
-                      Title="subject"
+                      Title="学科"
                       Icon=""
                       ContentTemplate="{DataTemplate views:SubjectMange}" />
-        
+        <ShellContent Route="cats"
+                          Style="{StaticResource DomesticShell}"
+                          Title="Cats"
+                          Icon="cat.png"
+                          ContentTemplate="{DataTemplate views:CatsPage}" />
+
         <!--<Tab Title="new tab">
             <ShellContent Title="1"/>
             <ShellContent Title="2"/>
@@ -155,11 +151,11 @@
         <ShellContent Title="new Shell"/>-->
     </FlyoutItem>
 
-    <ShellContent Route="about"
+    <ShellContent Route="class"
                   Style="{StaticResource AboutShell}"
-                  Title="About/"
+                  Title="班级"
                   Icon="info.png"
-                  ContentTemplate="{DataTemplate views:AboutPage}" />
+                  ContentTemplate="{DataTemplate views:ClassPage}" />
 
 
 

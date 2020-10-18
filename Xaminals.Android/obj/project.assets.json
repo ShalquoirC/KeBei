@@ -800,7 +800,7 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xaminals/1.0.0": {
+      "课贝/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -808,10 +808,10 @@
           "Xamarin.Forms": "4.8.0.1269"
         },
         "compile": {
-          "bin/placeholder/Xaminals.dll": {}
+          "bin/placeholder/课贝.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Xaminals.dll": {}
+          "bin/placeholder/课贝.dll": {}
         }
       }
     }
@@ -1984,17 +1984,17 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "Xaminals/1.0.0": {
+    "课贝/1.0.0": {
       "type": "project",
-      "path": "../Xaminals/Xaminals.csproj",
-      "msbuildProject": "../Xaminals/Xaminals.csproj"
+      "path": "../Xaminals/KeBei.csproj",
+      "msbuildProject": "../Xaminals/KeBei.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
       "Xamarin.Essentials >= 1.3.1",
       "Xamarin.Forms >= 4.8.0.1269",
-      "Xaminals >= 1.0.0"
+      "课贝 >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2004,11 +2004,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals.Android\\Xaminals.Android.csproj",
-      "projectName": "Xaminals.Android",
-      "projectPath": "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals.Android\\Xaminals.Android.csproj",
+      "projectUniqueName": "E:\\C#\\Xaminals\\Xaminals.Android\\KeiBei.Android.csproj",
+      "projectName": "KeiBei.Android",
+      "projectPath": "E:\\C#\\Xaminals\\Xaminals.Android\\KeiBei.Android.csproj",
       "packagesPath": "C:\\Users\\MECHREVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals.Android\\obj\\",
+      "outputPath": "E:\\C#\\Xaminals\\Xaminals.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2029,8 +2029,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals\\Xaminals.csproj": {
-              "projectPath": "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals\\Xaminals.csproj"
+            "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj": {
+              "projectPath": "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj"
             }
           }
         }

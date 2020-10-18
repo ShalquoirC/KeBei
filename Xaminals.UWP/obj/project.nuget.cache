@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ymih5I6ehRlBCQwFmPq2YKmbWCMR9IRgNQaxyjJa9EqZ9pII96mXoeF/h8avfASR+5dNAuZcmyAEHOp8mDhikA==",
+  "dgSpecHash": "PHUeBlJqjP4MG1WvjyL1qjQe8McbOU9zWVl4B4RzADQyaXwuIqVlGs/NaLa2D9t7mroWNRWnDMtcvsBqEdLLZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals.UWP\\Xaminals.UWP.csproj",
+  "projectFilePath": "E:\\C#\\Xaminals\\Xaminals.UWP\\Xaminals.UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MECHREVO\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.7-rel-27913-00\\microsoft.net.native.compiler.2.2.7-rel-27913-00.nupkg.sha512",
     "C:\\Users\\MECHREVO\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.9\\microsoft.net.uwpcoreruntimesdk.2.2.9.nupkg.sha512",

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
 using Xamarin.Forms;
-using Xaminals.Data;
+using KeBei.Data;
 
-namespace Xaminals.Views
+namespace KeBei.Views
 {
     [QueryProperty("Name", "name")]
     public partial class CatDetailPage : ContentPage

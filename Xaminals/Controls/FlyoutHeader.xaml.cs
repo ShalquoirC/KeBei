@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace Xaminals.Controls
+namespace KeBei.Controls
 {
     public partial class FlyoutHeader : ContentView
     {

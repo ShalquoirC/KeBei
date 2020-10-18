@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Xaminals.Controls.FlyoutHeader.xaml", "Controls/FlyoutHeader.xaml", typeof(global::Xaminals.Controls.FlyoutHeader))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("KeBei.Controls.FlyoutHeader.xaml", "Controls/FlyoutHeader.xaml", typeof(global::KeBei.Controls.FlyoutHeader))]
 
-namespace Xaminals.Controls {
+namespace KeBei.Controls {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Controls\\FlyoutHeader.xaml")]

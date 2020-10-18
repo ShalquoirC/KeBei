@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Xaminals.Views.LearnPage.xaml", "Views/LearnPage.xaml", typeof(global::Xaminals.Views.LearnPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("KeBei.Views.LearnPage.xaml", "Views/LearnPage.xaml", typeof(global::KeBei.Views.LearnPage))]
 
-namespace Xaminals.Views {
+namespace KeBei.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\LearnPage.xaml")]

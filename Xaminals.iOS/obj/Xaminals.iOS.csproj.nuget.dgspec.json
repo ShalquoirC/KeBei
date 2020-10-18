@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals.iOS\\Xaminals.iOS.csproj": {}
+    "E:\\C#\\Xaminals\\Xaminals.iOS\\Xaminals.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals.iOS\\Xaminals.iOS.csproj": {
+    "E:\\C#\\Xaminals\\Xaminals.iOS\\Xaminals.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals.iOS\\Xaminals.iOS.csproj",
+        "projectUniqueName": "E:\\C#\\Xaminals\\Xaminals.iOS\\Xaminals.iOS.csproj",
         "projectName": "Xaminals.iOS",
-        "projectPath": "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals.iOS\\Xaminals.iOS.csproj",
+        "projectPath": "E:\\C#\\Xaminals\\Xaminals.iOS\\Xaminals.iOS.csproj",
         "packagesPath": "C:\\Users\\MECHREVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals.iOS\\obj\\",
+        "outputPath": "E:\\C#\\Xaminals\\Xaminals.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals\\Xaminals.csproj": {
-                "projectPath": "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals\\Xaminals.csproj"
+              "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj": {
+                "projectPath": "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals\\Xaminals.csproj": {
+    "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals\\Xaminals.csproj",
-        "projectName": "Xaminals",
-        "projectPath": "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals\\Xaminals.csproj",
+        "projectUniqueName": "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj",
+        "projectName": "课贝",
+        "projectPath": "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj",
         "packagesPath": "C:\\Users\\MECHREVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals\\obj\\",
+        "outputPath": "E:\\C#\\Xaminals\\Xaminals\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,4 +1,4 @@
-﻿namespace Xaminals.Models
+﻿namespace KeBei.Models
 {
     public class Animal
     {

@@ -188,9 +188,9 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Xaminals\Xaminals.csproj">
+    <ProjectReference Include="..\Xaminals\KeBei.csproj">
       <Project>{cd4de9e8-2721-47f3-ba95-999b6f75ff27}</Project>
-      <Name>Xaminals</Name>
+      <Name>KeBei</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

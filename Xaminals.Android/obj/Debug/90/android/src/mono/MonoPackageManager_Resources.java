@@ -1,8 +1,8 @@
 package mono;
 public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
-		/* We need to ensure that "Xaminals.Android.dll" comes first in this list. */
-		"Xaminals.Android.dll",
+		/* We need to ensure that "课贝.Android.dll" comes first in this list. */
+		"课贝.Android.dll",
 		"FormsViewGroup.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
@@ -46,7 +46,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
-		"Xaminals.dll",
+		"课贝.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

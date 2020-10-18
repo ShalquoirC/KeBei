@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uiK0/rx709ZRYAefYlUHhv7Zy6ufZUKsBkFy7a1km/Xw5va8mOu23ywZWpCtg9eNSrrhxeR9/EG3HK2XPks0Ag==",
+  "dgSpecHash": "v9gmGeOnbbZgUBXZQLheKSa6V7RBdaRr8pRhn8meu9kGJR0CgmYQmnJG6Y3qlgd4eozkSgziFho/sNuyw8ZiGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MECHREVO\\Desktop\\Xaminals\\Xaminals\\Xaminals.csproj",
+  "projectFilePath": "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MECHREVO\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\MECHREVO\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

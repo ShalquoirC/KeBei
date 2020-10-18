@@ -2,7 +2,7 @@
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
-namespace Xaminals.Views
+namespace KeBei.Views
 {
     public partial class AboutPage : ContentPage
     {
