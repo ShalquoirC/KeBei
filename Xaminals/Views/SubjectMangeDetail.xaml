@@ -4,21 +4,28 @@
              x:Class="KeBei.Views.SubjectMangeDetail"
              x:Name="self"
              Title="SubjectMange Detail">
+
+
     <!--滚动视图-->
     <ScrollView>
-        <StackLayout Margin="20">
+        <StackLayout Margin="3">
+            <Editor Placeholder="输入课程名称"
+                Text="{Binding Name}"
+                HeightRequest="100" />
             <Label Text="{Binding Name}" 
                    HorizontalOptions="Center" 
                    Style="{DynamicResource TitleStyle}" />
-            <Label Text="{Binding Location}" 
-                   FontAttributes="Italic" 
-                   HorizontalOptions="Center" />
-            <Image Source="{Binding ImageUrl}" 
+            <!--<Image Source="{Binding ImageUrl}" 
                    HeightRequest="200" 
                    WidthRequest="200" 
-                   HorizontalOptions="CenterAndExpand" />
-            <Label Text="{Binding Details}" 
-                   Style="{DynamicResource BodyStyle}" />
+                   HorizontalOptions="CenterAndExpand" />-->
+            <!--<Label Text="{Binding Location}" 
+                   Style="{DynamicResource BodyStyle}" />-->
+            <Button Text="保存" 
+                    Clicked="OnSaveButtonClicked" />
+            <Button Grid.Column="1"
+                    Text="删除（功能未实现）" 
+                    Clicked="OnDeleteButtonClicked"/>
         </StackLayout>
     </ScrollView>
 </ContentPage>

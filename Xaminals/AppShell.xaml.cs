@@ -32,7 +32,7 @@ namespace KeBei
 
             routes.Add("catdetails", typeof(CatDetailPage));
             routes.Add("learndetails", typeof(LearnDetailPage));
-            routes.Add("SubjectMange", typeof(SubjectMangeDetail));
+            routes.Add("subjectdetails", typeof(SubjectMangeDetail));
             
 
             foreach (var item in routes)
@@ -53,6 +53,14 @@ namespace KeBei
                     break;
 
             }
+            //switch (destinationRoute)
+            //{
+            //    case "subjectdetails":
+            //        animalName = .Cats.ElementAt(rand.Next(0, CatData.Cats.Count)).Name;
+            //        break;
+
+            //}
+
 
             ShellNavigationState state = Shell.Current.CurrentState;
             await Shell.Current.GoToAsync($"{state.Location}/{destinationRoute}?name={animalName}");

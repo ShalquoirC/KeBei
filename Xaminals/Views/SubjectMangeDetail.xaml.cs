@@ -1,20 +1,34 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+using KeBei.Models;
+
 
 namespace KeBei.Views
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
+
     public partial class SubjectMangeDetail : ContentPage
     {
         public SubjectMangeDetail()
         {
             InitializeComponent();
         }
+        async void OnSaveButtonClicked(object sender,EventArgs e)
+        {
+            var subject = (Subject)BindingContext;
+            subject.StartDateString = DateTime.Now.ToLongDateString().ToString();
+            //subject.Details = null;
+            //subject.EndDateString= null;
+            //subject.CourseWare = null;
+            //subject.ImageUrl = null;
+
+            await App.Database.SaveSubjectAsync(subject);
+            await Navigation.PopAsync();
+        }
+        //async void OnDeleteButtonClicked(object sender, EventArgs e)
+        //{
+        //    var subject = (Subject)BindingContext;
+        //    await App.Database.DeleteSubjectAsync(subject);
+        //    await Navigation.PopAsync();
+        //}
     }
 }
