@@ -29,7 +29,7 @@
             <DataTemplate>
                 <TextCell Text="{Binding Name}"
                           TextColor="Blue"
-                          Detail="{Binding StartDateString}" />
+                          Detail="{Binding StartDate}" />
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>

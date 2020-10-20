@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KeBei.Views.SubjectMangeDetail"
              x:Name="self"
-             Title="SubjectMange Detail">
+             Title="{Binding Name}">
 
 
     <!--滚动视图-->
@@ -12,7 +12,7 @@
             <Editor Placeholder="输入课程名称"
                 Text="{Binding Name}"
                 HeightRequest="100" />
-            <Label Text="{Binding Name}" 
+            <Label Text="{Binding ID}" 
                    HorizontalOptions="Center" 
                    Style="{DynamicResource TitleStyle}" />
             <!--<Image Source="{Binding ImageUrl}" 
@@ -24,7 +24,7 @@
             <Button Text="保存" 
                     Clicked="OnSaveButtonClicked" />
             <Button Grid.Column="1"
-                    Text="删除（功能未实现）" 
+                    Text="删除" 
                     Clicked="OnDeleteButtonClicked"/>
         </StackLayout>
     </ScrollView>

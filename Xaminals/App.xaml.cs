@@ -1,9 +1,9 @@
-﻿using KeBei.Data;
-using KeBei.Views;
+﻿
 using System;
 using System.IO;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using KeBei.Data;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace KeBei
@@ -18,7 +18,7 @@ namespace KeBei
             {
                 if(subject_database==null)
                 {
-                    subject_database = new DataSubject(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Subject.db3"));
+                    subject_database = new DataSubject(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Subject1.db3"));
                 }
                 return subject_database;
             }
