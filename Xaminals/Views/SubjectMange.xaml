@@ -2,6 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KeBei.Views.SubjectMange"
+             xmlns:data="clr-namespace:KeBei.Data"
+             xmlns:views="clr-namespace:KeBei.Views"
+             xmlns:controls="clr-namespace:KeBei.Controls"
              Title="课程管理">
     <!--<ContentPage.Content>
         <StackLayout>
@@ -10,7 +13,6 @@
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>-->
-
     <ContentPage.Resources>
         <Style TargetType="{x:Type ListView}">
             <Setter Property="BackgroundColor"

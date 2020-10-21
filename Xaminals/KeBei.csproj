@@ -18,7 +18,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModels\" />
-    <Folder Include="Controls\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Views\ClassPage.xaml.cs">

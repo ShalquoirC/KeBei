@@ -6,6 +6,13 @@
              xmlns:views="clr-namespace:KeBei.Views"
              x:Class="KeBei.Views.CatsPage"
              Title="Cats">
+    <Shell.SearchHandler>
+        <controls:AnimalSearchHandler Placeholder="Enter search term"
+                                      ShowsResults="true"
+                                      ItemTemplate="{StaticResource AnimalSearchTemplate}"
+                                      Animals="{x:Static data:CatData.Cats}"
+                                      SelectedItemNavigationTarget="{x:Type views:CatDetailPage}" />
+    </Shell.SearchHandler>
     <ContentPage.Resources>
         <Style TargetType="Grid">
             <Setter Property="VisualStateManager.VisualStateGroups">
@@ -24,14 +31,6 @@
         </Style>
     </ContentPage.Resources>
 
-    <Shell.SearchHandler>
-        <controls:AnimalSearchHandler Placeholder="Enter search term"
-                                      ShowsResults="true"
-                                      ItemTemplate="{StaticResource AnimalSearchTemplate}"
-                                      Animals="{x:Static data:CatData.Cats}"
-                                      SelectedItemNavigationTarget="{x:Type views:CatDetailPage}" />
-    </Shell.SearchHandler>
-    
     <CollectionView Margin="20"
                     ItemsSource="{x:Static data:CatData.Cats}"
                     ItemTemplate="{StaticResource AnimalTemplate}"

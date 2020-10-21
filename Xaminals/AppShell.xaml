@@ -43,7 +43,7 @@
                TargetType="Element"
                BasedOn="{StaticResource BaseStyle}">
             <Setter Property="Shell.BackgroundColor"
-                    Value="#039BE6" />
+                    Value="#2d2e40" />
         </Style>
     </Shell.Resources>
 

@@ -22,7 +22,7 @@
             <!--<Label Text="{Binding Location}" 
                    Style="{DynamicResource BodyStyle}" />-->
             <Button Text="保存" 
-                    Clicked="OnSaveButtonClicked" />
+                    Clicked="OnSaveButtonClicked" />    
             <Button Grid.Column="1"
                     Text="删除" 
                     Clicked="OnDeleteButtonClicked"/>

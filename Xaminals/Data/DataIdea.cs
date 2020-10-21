@@ -5,31 +5,31 @@ using KeBei.Models;
 
 namespace KeBei.Data
 {
-    public class DataSubject
+    public class DataIdea
     {
         readonly SQLiteAsyncConnection _database;
 
-        public DataSubject(string dbPath)
+        public DataIdea(string dbPath)
         {
             _database = new SQLiteAsyncConnection(dbPath);
-            _database.CreateTableAsync<Subject>().Wait();
+            _database.CreateTableAsync<Idea>().Wait();
         }
         //任务List<Note>   询问数据库并以List<>形式返回数据
-        public Task<List<Subject>> GetSubjectsAsync()
+        public Task<List<Idea>> GetIdeasAsync()
         {
-            return _database.Table<Subject>().ToListAsync();
+            return _database.Table<Idea>().ToListAsync();
         }
         //返回该id的所有数据
-        public Task<Subject> GetSubjectAsync(int id)
+        public Task<Idea> GetIdeaAsync(int id)
         {
-            return _database.Table<Subject>()
+            return _database.Table<Idea>()
                             .Where(j => j.ID == id)
                             .FirstOrDefaultAsync();
         }
 
         //where
         //id为primary key主键
-        public Task<int> SaveSubjectAsync(Subject datacell)
+        public Task<int> SaveIdeaAsync(Idea datacell)
         {
             if (datacell.ID != 0)
             {
@@ -43,7 +43,7 @@ namespace KeBei.Data
             }
         }
 
-        public Task<int> DeleteSubjectAsync(Subject datacell)
+        public Task<int> DeleteIdeaAsync(Idea datacell)
         {
             return _database.DeleteAsync(datacell);
         }

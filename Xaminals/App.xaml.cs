@@ -11,8 +11,10 @@ namespace KeBei
     public partial class App : Application
     {
         static DataSubject subject_database;
-
-        public static DataSubject Database
+        static DataBClass bclass_database;
+        static DataCurriculum curriculum_database;
+        static DataIdea idea_database;
+        public static DataSubject Database_Subject
         {
             get
             {
@@ -23,7 +25,39 @@ namespace KeBei
                 return subject_database;
             }
         }
-
+        public static DataBClass Database_BClass
+        {
+            get
+            {
+                if (bclass_database == null)
+                {
+                    bclass_database = new DataBClass(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "BClass.db3"));
+                }
+                return bclass_database;
+            }
+        }
+        public static DataCurriculum Database_Curriculum
+        {
+            get
+            {
+                if (curriculum_database == null)
+                {
+                    curriculum_database = new DataCurriculum(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Curriculum.db3"));
+                }
+                return curriculum_database;
+            }
+        }
+        public static DataIdea Database_Idea
+        {
+            get
+            {
+                if (idea_database == null)
+                {
+                    idea_database = new DataIdea(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Idea.db3"));
+                }
+                return idea_database;
+            }
+        }
         public App()
         {
             InitializeComponent();
