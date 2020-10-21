@@ -19,11 +19,12 @@
                     Value="#96d1ff"/>
         </Style>
     </ContentPage.Resources>
-    
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="+"
                      Clicked="OnSubjectAddedClicked" />
     </ContentPage.ToolbarItems>
+    
     <ListView x:Name="listView"
               Margin="20"
               ItemSelected="OnListViewItemSelected">

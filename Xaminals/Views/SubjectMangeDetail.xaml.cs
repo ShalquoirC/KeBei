@@ -12,19 +12,10 @@ namespace KeBei.Views
         public SubjectMangeDetail()
         {
             InitializeComponent();
+            var subject = (Subject)BindingContext;
             //var subject = (Subject)BindingContext;
-            //if(subject.ID==0)
-            //{
-            //    Button buttonA = new Button();
-            //    buttonA.Text = "保存";
-            //    buttonA.HorizontalOptions = LayoutOptions.Center;
-            //    buttonA.Clicked += OnSaveButtonClicked;
+            //if (subject.Name==null)
 
-            //    Button buttonB = new Button();
-            //    buttonB.Text = "删除";
-            //    buttonA.HorizontalOptions = LayoutOptions.Center;
-            //    buttonB.Clicked += OnDeleteButtonClicked;
-            //}
         }
 
 
@@ -35,6 +26,9 @@ namespace KeBei.Views
         {
             var subject = (Subject)BindingContext;
             subject.StartDate = DateTime.UtcNow;
+            
+            
+
 
             await App.Database_Subject.SaveSubjectAsync(subject);
             await Navigation.PopAsync();
@@ -45,5 +39,11 @@ namespace KeBei.Views
             await App.Database_Subject.DeleteSubjectAsync(subject);
             await Navigation.PopAsync();
         }
+
+        //private void DatePicker_DateSelected(object sender, DateChangedEventArgs e)
+        //{
+        //    var subject = (Subject)BindingContext;
+        //    subject.EndDate=
+        //}
     }
 }

@@ -10,11 +10,17 @@
     <ScrollView>
         <StackLayout Margin="3">
             <Editor Placeholder="输入课程名称"
-                Text="{Binding Name}"
-                HeightRequest="100" />
-            <Label Text="{Binding ID}" 
+                Text="{Binding Name}" />
+            <Editor Placeholder="请输入课时数"
+                    Text="{Binding CurLenth}"
+                    PlaceholderColor="blue"
+                    HeightRequest="50" />
+            <DatePicker Format="yyyy/MM/dd" 
+                        MinimumDate="2019-01-01"
+                        />
+            <Label Text="{Binding EndDate}" 
                    HorizontalOptions="Center" 
-                   Style="{DynamicResource TitleStyle}" />
+                   />
             <!--<Image Source="{Binding ImageUrl}" 
                    HeightRequest="200" 
                    WidthRequest="200" 
