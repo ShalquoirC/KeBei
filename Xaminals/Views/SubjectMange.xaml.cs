@@ -32,7 +32,7 @@ namespace KeBei.Views
         {
             if (e.SelectedItem != null)
             {
-                await Navigation.PushAsync(new SubjectMangeDetail
+                await Navigation.PushAsync(new SubjectMangeView
                 {
                     BindingContext = e.SelectedItem as Subject
                 });

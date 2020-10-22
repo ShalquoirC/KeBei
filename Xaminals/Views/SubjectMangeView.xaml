@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KeBei.Views.SubjectMangeView"
+             x:Name="self"
+             Title="{Binding Name}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="修改"
+                     Clicked="OnSubjectAddedClicked" 
+                     />
+    </ContentPage.ToolbarItems>
+    <ScrollView>
+        <StackLayout Margin="3">
+            
+            <Label Text="{Binding Name}" 
+                   FontAttributes="Bold" 
+                   FontSize="Large" 
+                   HorizontalTextAlignment="Center" 
+                   
+                   />
+            <Label Text="{Binding CurLenth}"
+                   TextColor="blue"
+                    HeightRequest="50" 
+                   HorizontalTextAlignment="Start" 
+                   Margin="30,0,0,0" />
+            <Label Text="{Binding StartDate}" 
+                   Margin="30,0,0,0" />
+            <Label Text="{Binding EndDate}" 
+                   Margin="30,0,0,0" 
+                   />
+            <!--<Image Source="{Binding ImageUrl}" 
+                   HeightRequest="200" 
+                   WidthRequest="200" 
+                   HorizontalOptions="CenterAndExpand" />-->
+            <!--<Label Text="{Binding Location}" 
+                   Style="{DynamicResource BodyStyle}" />-->
+            
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

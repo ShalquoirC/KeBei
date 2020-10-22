@@ -118,6 +118,7 @@
                           Title="主页"
                           Icon=""
                           ContentTemplate="{DataTemplate views:LearnPage}"/>
+            
         </Tab>
 
         <!--

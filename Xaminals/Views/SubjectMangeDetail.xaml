@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KeBei.Views.SubjectMangeDetail"
              x:Name="self"
-             Title="{Binding Name}">
+             Title="新建课程">
 
 
     <!--滚动视图-->
@@ -16,8 +16,8 @@
                     PlaceholderColor="blue"
                     HeightRequest="50" />
             <DatePicker Format="yyyy/MM/dd" 
-                        MinimumDate="2019-01-01"
-                        />
+                        Date ="{Binding EndDate}"
+                        MinimumDate="2019-01-01" />
             <Label Text="{Binding EndDate}" 
                    HorizontalOptions="Center" 
                    />
