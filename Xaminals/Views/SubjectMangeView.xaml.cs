@@ -22,7 +22,7 @@ namespace KeBei.Views
             {
                 BindingContext = subject
             }); ;
-            await Navigation.PopModalAsync();
+            
         }
     }
 }

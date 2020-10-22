@@ -19,8 +19,7 @@
                         Date ="{Binding EndDate}"
                         MinimumDate="2019-01-01" />
             <Label Text="{Binding EndDate}" 
-                   HorizontalOptions="Center" 
-                   />
+                   HorizontalOptions="Center" />
             <!--<Image Source="{Binding ImageUrl}" 
                    HeightRequest="200" 
                    WidthRequest="200" 
