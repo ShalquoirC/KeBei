@@ -21,7 +21,8 @@ namespace KeBei.Views
             await Navigation.PushAsync(new SubjectMangeDetail
             {
                 BindingContext = subject
-            }); ;
+            }); 
+            
             
         }
     }

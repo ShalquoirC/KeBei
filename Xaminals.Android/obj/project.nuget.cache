@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5pORUDgjsOlw0sYXegYJT/UgRHQTAtIQ8Fcn+9vv+Uet9X5LjvVk+gxDq7+6/ZfVRyhUu1jBnooBS+RIUrpa8w==",
+  "dgSpecHash": "kKfKOUuOdUSG9edllS8pDvWy/VgEmSlT+B5b+bgiJuNET4RTdSb/CxzUbhtjUk3fimL9wX5aljA4yFGfG+lnEw==",
   "success": true,
   "projectFilePath": "E:\\C#\\Xaminals\\Xaminals.Android\\KeiBei.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\plugin.toast\\2.2.0\\plugin.toast.2.2.0.nupkg.sha512",
     "C:\\Users\\MECHREVO\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\MECHREVO\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\MECHREVO\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",

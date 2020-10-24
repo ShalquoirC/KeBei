@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "NKWycaFs55C5zlP3d4TtrURwuRgz3WGhb9qDpwDn1ihPEiid+LI1/PidvifE4DRC8DR4X0hqkwJLPPo040XtnQ==",
+  "dgSpecHash": "i2WbknkPfIV72fGJk3E5oIRnzGAIMVLvkS2mc7h4MUDkowWXxoMtw/4IOhUnsF58PGqpKhq1Uejbmo90Zv/pBw==",
   "success": true,
   "projectFilePath": "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MECHREVO\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\MECHREVO\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\plugin.toast\\2.2.0\\plugin.toast.2.2.0.nupkg.sha512",
     "C:\\Users\\MECHREVO\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\MECHREVO\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\MECHREVO\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",

@@ -10,19 +10,20 @@ namespace KeBei
 {
     public partial class App : Application
     {
+        static Database database;
         static DataSubject subject_database;
         static DataBClass bclass_database;
         static DataCurriculum curriculum_database;
         static DataIdea idea_database;
-        public static DataSubject Database_Subject
+        public static Database Database_Subject
         {
             get
             {
-                if(subject_database==null)
+                if(database==null)
                 {
-                    subject_database = new DataSubject(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Subject1.db3"));
+                    database = new Database(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Subject1.db3"));
                 }
-                return subject_database;
+                return database;
             }
         }
         public static DataBClass Database_BClass

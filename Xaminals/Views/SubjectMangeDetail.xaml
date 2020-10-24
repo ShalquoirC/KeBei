@@ -3,23 +3,29 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KeBei.Views.SubjectMangeDetail"
              x:Name="self"
-             Title="新建课程">
+             Title="{Binding Name}">
 
 
     <!--滚动视图-->
     <ScrollView>
         <StackLayout Margin="3">
             <Editor Placeholder="输入课程名称"
-                Text="{Binding Name}" />
+                    Text="{Binding Name}" 
+                    MaxLength = "20"/>
             <Editor Placeholder="请输入课时数"
                     Text="{Binding CurLenth}"
                     PlaceholderColor="blue"
-                    HeightRequest="50" />
+                    HeightRequest="50"
+                    MaxLength= "2"
+                    Keyboard="Numeric"/>
+            <Label Text="一年以内哟"/>
             <DatePicker Format="yyyy/MM/dd" 
+                        MinimumDate="2020-01-01"
                         Date ="{Binding EndDate}"
-                        MinimumDate="2019-01-01" />
+                        />
             <Label Text="{Binding EndDate}" 
-                   HorizontalOptions="Center" />
+                   HorizontalOptions="Center" 
+                   />
             <!--<Image Source="{Binding ImageUrl}" 
                    HeightRequest="200" 
                    WidthRequest="200" 

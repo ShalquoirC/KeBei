@@ -17,6 +17,6 @@ E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\KeBei.AssemblyInfoInputs.cache
 E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\KeBei.AssemblyInfo.cs
 E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\课贝.dll
 E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\课贝.pdb
+E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\Views\SubjectMangeView.xaml.g.cs
 E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\KeBei.csproj.CoreCompileInputs.cache
 E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\XamlC.stamp
-E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\Views\SubjectMangeView.xaml.g.cs

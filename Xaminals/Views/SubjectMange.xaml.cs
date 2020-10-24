@@ -22,6 +22,8 @@ namespace KeBei.Views
 
         async void OnSubjectAddedClicked(object sender, EventArgs e)
         {
+
+
             await Navigation.PushAsync(new SubjectMangeDetail
             {
                 BindingContext = new Subject()

@@ -500,3 +500,7 @@ E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\android\assets\SQLitePCLRaw.provide
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\android\assets\System.Buffers.dll
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\android\assets\System.Memory.dll
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\android\assets\Plugin.Toast.Abstractions.dll
+E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\android\assets\Plugin.Toast.Abstractions.pdb
+E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\android\assets\Plugin.Toast.dll
+E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\android\assets\Plugin.Toast.dll.mdb
