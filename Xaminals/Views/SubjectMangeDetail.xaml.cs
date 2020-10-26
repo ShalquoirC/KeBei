@@ -13,9 +13,6 @@ namespace KeBei.Views
         public SubjectMangeDetail()
         {
             InitializeComponent();
-            var subject = (Subject)BindingContext;
-            DatePicker datePicker = new DatePicker();
-            datePicker.MaximumDate = DateTime.UtcNow;
         }
 
 
@@ -55,6 +52,16 @@ namespace KeBei.Views
                             CrossToastPopUp.Current.ShowToastSuccess("课时数最多只能为50", toastLength);
                         }
                         await App.Database_Subject.SaveSubjectAsync(subject);
+
+                        for(int i=0;i<subject.CurLenth;i++)
+                        {
+                            Curriculum curr = new Curriculum();
+                            curr.Name = "第" + (i+1).ToString() + "课时";
+                            curr.Detail = "点击编辑"+curr.Name+"内容";
+                            await App.Database_Curriculum.SaveCurriculumAsync(curr);
+                        }
+
+
                         await Navigation.PopAsync();
                     }
                 }
@@ -64,6 +71,7 @@ namespace KeBei.Views
         {
             var subject = (Subject)BindingContext;
             await App.Database_Subject.DeleteSubjectAsync(subject);
+            
             await Navigation.PopAsync();
         }
     }

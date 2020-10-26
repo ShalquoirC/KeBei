@@ -47,5 +47,6 @@ namespace KeBei.Data
         {
             return _database.DeleteAsync(datacell);
         }
+        
     }
 }

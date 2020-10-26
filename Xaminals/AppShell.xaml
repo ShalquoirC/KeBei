@@ -3,7 +3,7 @@
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:controls="clr-namespace:KeBei.Controls"
        xmlns:views="clr-namespace:KeBei.Views"
-       FlyoutBackgroundImage="photo.jpg"
+       FlyoutBackgroundImage="gr.jpg"
        FlyoutBackgroundImageAspect="AspectFill"
        FlyoutHeaderBehavior="CollapseOnScroll"
        Navigating="OnNavigating"
@@ -13,7 +13,7 @@
         <Style x:Key="BaseStyle"
                TargetType="Element">
             <Setter Property="Shell.BackgroundColor"
-                    Value="#455A64" />
+                    Value="#00CCFF" />
             <Setter Property="Shell.ForegroundColor"
                     Value="White" />
             <Setter Property="Shell.TitleColor"
@@ -45,80 +45,36 @@
             <Setter Property="Shell.BackgroundColor"
                     Value="#2d2e40" />
         </Style>
+        <Style x:Key="SubjectShell"
+               TargetType="Element"
+               BasedOn="{StaticResource BaseStyle}">
+            <Setter Property="Shell.BackgroundColor"
+                    Value="#2d2e40" />
+        </Style>
+        <Style x:Key="CurrShell"
+               TargetType="Element"
+               BasedOn="{StaticResource BaseStyle}">
+            <Setter Property="Shell.BackgroundColor"
+                    Value="#2d2e40" />
+        </Style>
     </Shell.Resources>
 
     <Shell.FlyoutHeader>
         <controls:FlyoutHeader />
     </Shell.FlyoutHeader>
 
-    <!-- Template for FlyoutHeader -->
-    <!-- Not required, as the FlyoutHeader is set above -->
-    <!--    <Shell.FlyoutHeaderTemplate>
-        <DataTemplate>
-            <Grid BackgroundColor="Black"
-                  HeightRequest="200">
-                <Image Aspect="AspectFill" 
-                       Source="xamarinstore.jpg" 
-                       Opacity="0.6" />
-                <Label Text="Animals" 
-                       TextColor="White" 
-                       FontAttributes="Bold" 
-                       HorizontalTextAlignment="Center"
-                       VerticalTextAlignment="Center" />
-            </Grid>            
-        </DataTemplate>
-    </Shell.FlyoutHeaderTemplate>-->
-
-    <!-- Template each FlyoutItem -->
-    <!--    <Shell.ItemTemplate>
-        <DataTemplate>
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="0.2*" />
-                    <ColumnDefinition Width="0.8*" />
-                </Grid.ColumnDefinitions>
-                <Image Source="{Binding Icon}"
-                       Margin="5"
-                       HeightRequest="45" />
-                <Label Grid.Column="1"
-                       Text="{Binding Title}"
-                       FontAttributes="Italic"
-                       VerticalTextAlignment="Center" /> 
-            </Grid>
-        </DataTemplate>
-    </Shell.ItemTemplate>-->
-
-    <!-- Template each MenuItem -->
-    <!--    <Shell.MenuItemTemplate>
-        <DataTemplate>
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="0.2*" />
-                    <ColumnDefinition Width="0.8*" />
-                </Grid.ColumnDefinitions>
-                <Image Source="{Binding Icon}"
-                       Margin="5"
-                       HeightRequest="45" />
-                <Label Grid.Column="1"
-                       Text="{Binding Text}"
-                       FontAttributes="Italic"
-                       VerticalTextAlignment="Center" /> 
-            </Grid>
-        </DataTemplate>
-    </Shell.MenuItemTemplate>-->
-
-    <FlyoutItem Route="animals"
+    <FlyoutItem Route="kebei"
                 Title="课贝"
                 FlyoutDisplayOptions="AsMultipleItems">
-        <Tab Title="备课"
+        <Tab Title="主页"
              Route="domestic"
-             Icon="">
+             Icon="main.png">
             <ShellContent Route="learn"
                           Style="{StaticResource LearnShell}"
                           Title="主页"
-                          Icon=""
+                          Icon="mian.png"
                           ContentTemplate="{DataTemplate views:LearnPage}"/>
-            
+
         </Tab>
 
         <!--
@@ -132,37 +88,34 @@
         this code is valid and does build.
                
         -->
-        
 
-        <ShellContent Route="subject"
-                      Style="{StaticResource LearnShell}"
+        <Tab Title="备课吧"
+             Route="beike"
+             Icon="subject.png"
+            >
+            <ShellContent Route="subject"
+                      Style="{StaticResource SubjectShell}"
                       Title="学科"
-                      Icon=""
+                      Icon="subject.png"
                       ContentTemplate="{DataTemplate views:SubjectMange}" />
-        <ShellContent Route="cats"
-                          Style="{StaticResource DomesticShell}"
-                          Title="Cats"
-                          Icon="cat.png"
-                          ContentTemplate="{DataTemplate views:CatsPage}" />
+            <ShellContent Route="curr"
+                          Style="{StaticResource CurrShell}"
+                          Title="课时"
+                          Icon="curr.png"
+                          ContentTemplate="{DataTemplate views:CurrPage}"/>
 
-        <!--<Tab Title="new tab">
-            <ShellContent Title="1"/>
-            <ShellContent Title="2"/>
+
         </Tab>
-        <ShellContent Title="new Shell"/>-->
+        <ShellContent Route="class"
+                  Style="{StaticResource CurrShell}"
+                  Title="班级"
+                  Icon="yclass.png"
+                  ContentTemplate="{DataTemplate views:ClassPage}" />
     </FlyoutItem>
 
-    <ShellContent Route="class"
-                  Style="{StaticResource AboutShell}"
-                  Title="班级"
-                  Icon="info.png"
-                  ContentTemplate="{DataTemplate views:ClassPage}" />
-    
 
 
-    <MenuItem Text="Random"
-              IconImageSource="random.png"
-              Command="{Binding RandomPageCommand}" />
+
     <MenuItem Text="Help"
               IconImageSource="help.png"
               Command="{Binding HelpCommand}"

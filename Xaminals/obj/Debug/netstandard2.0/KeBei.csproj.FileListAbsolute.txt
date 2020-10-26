@@ -1,7 +1,6 @@
 E:\C#\Xaminals\Xaminals\bin\Debug\netstandard2.0\课贝.deps.json
 E:\C#\Xaminals\Xaminals\bin\Debug\netstandard2.0\课贝.dll
 E:\C#\Xaminals\Xaminals\bin\Debug\netstandard2.0\课贝.pdb
-E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\KeBei.csprojAssemblyReference.cache
 E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\App.xaml.g.cs
 E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
 E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\Controls\FlyoutHeader.xaml.g.cs
@@ -20,3 +19,7 @@ E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\课贝.pdb
 E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\Views\SubjectMangeView.xaml.g.cs
 E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\KeBei.csproj.CoreCompileInputs.cache
 E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\XamlC.stamp
+E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\Views\CurrDetailPage.xaml.g.cs
+E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\Views\CurrPage.xaml.g.cs
+E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\Views\MainView.xaml.g.cs
+E:\C#\Xaminals\Xaminals\obj\Debug\netstandard2.0\KeBei.csprojAssemblyReference.cache

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KeBei.Views.CurrDetailPage">
+    <ScrollView>
+        <StackLayout Margin="3" >
+            <Editor Placeholder="输入课时名称"
+                    Text="{Binding Name}" 
+                    MaxLength = "20"/>
+            <Editor Placeholder="输入课时名称"
+                    Text="{Binding Detail}" 
+                    MaxLength = "20"
+                    AutoSize="TextChanges" 
+                    FontAttributes="Italic"/>
+            <Button Text="保存" 
+                    Clicked="OnSaveButtonClicked" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

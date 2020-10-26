@@ -21,11 +21,10 @@
             <Label Text="一年以内哟"/>
             <DatePicker Format="yyyy/MM/dd" 
                         MinimumDate="2020-01-01"
-                        Date ="{Binding EndDate}"
-                        />
+                        Date ="{Binding EndDate}"/>
             <Label Text="{Binding EndDate}" 
-                   HorizontalOptions="Center" 
-                   />
+                   HorizontalOptions="Center" />
+
             <!--<Image Source="{Binding ImageUrl}" 
                    HeightRequest="200" 
                    WidthRequest="200" 

@@ -18,7 +18,7 @@ namespace KeBei
         public Dictionary<string, Type> Routes { get { return routes; } }
 
         public ICommand HelpCommand => new Command<string>(async (url) => await Launcher.OpenAsync(url));
-        public ICommand RandomPageCommand => new Command(async () => await NavigateToRandomPageAsync());
+
 
         public AppShell()
         {
@@ -29,43 +29,15 @@ namespace KeBei
 
         void RegisterRoutes()
         {
-
-            routes.Add("catdetails", typeof(CatDetailPage));
             routes.Add("learndetails", typeof(LearnDetailPage));
             routes.Add("subjectdetails", typeof(SubjectMangeDetail));
-            
-
             foreach (var item in routes)
             {
                 Routing.RegisterRoute(item.Key, item.Value);
             }
         }
         //随机
-        async Task NavigateToRandomPageAsync()
-        {
-            string destinationRoute = routes.ElementAt(rand.Next(0, routes.Count)).Key;
-            string animalName = null;
-
-            switch (destinationRoute)
-            {
-                case "catdetails":
-                    animalName = CatData.Cats.ElementAt(rand.Next(0, CatData.Cats.Count)).Name;
-                    break;
-
-            }
-            //switch (destinationRoute)
-            //{
-            //    case "subjectdetails":
-            //        animalName = .Cats.ElementAt(rand.Next(0, CatData.Cats.Count)).Name;
-            //        break;
-
-            //}
-
-
-            ShellNavigationState state = Shell.Current.CurrentState;
-            await Shell.Current.GoToAsync($"{state.Location}/{destinationRoute}?name={animalName}");
-            Shell.Current.FlyoutIsPresented = false;
-        }
+       
 
         void OnNavigating(object sender, ShellNavigatingEventArgs e)
         {

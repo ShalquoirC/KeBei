@@ -43,8 +43,6 @@ E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\mipmap-xxxhdpi\icon.png
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\mipmap-xxxhdpi\launcher_foreground.png
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\bear.png
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\cat.png
-E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\dog.png
-E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\elephant.png
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\help.png
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\info.png
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\monkey.png
@@ -491,7 +489,6 @@ E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\stamp\_ConvertResourcesCases.stamp
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
-E:\C#\Xaminals\Xaminals.Android\bin\Debug\课贝.dll.mdb
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\android\assets\SQLite-net.dll
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\android\assets\SQLitePCLRaw.batteries_v2.dll
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\android\assets\SQLitePCLRaw.core.dll
@@ -504,3 +501,12 @@ E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\android\assets\Plugin.Toast.Abstrac
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\android\assets\Plugin.Toast.Abstractions.pdb
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\android\assets\Plugin.Toast.dll
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\android\assets\Plugin.Toast.dll.mdb
+E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\timg1.jpg
+E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\bla.jpg
+E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\subject.png
+E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\curr.png
+E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\main.png
+E:\C#\Xaminals\Xaminals.Android\bin\Debug\课贝.dll.mdb
+E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\yclass.png
+E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\gr.jpg
+E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\beike.png

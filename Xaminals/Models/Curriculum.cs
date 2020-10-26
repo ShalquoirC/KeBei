@@ -8,8 +8,10 @@ namespace KeBei.Models
     {
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
-        [Unique] [NotNull] public string Name { get; set; }
+        [NotNull] public string Name { get; set; }
         public string Detail { get; set; }
 
+       
     }
+    
 }

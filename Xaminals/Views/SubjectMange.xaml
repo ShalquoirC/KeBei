@@ -2,9 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KeBei.Views.SubjectMange"
-             xmlns:data="clr-namespace:KeBei.Data"
-             xmlns:views="clr-namespace:KeBei.Views"
-             xmlns:controls="clr-namespace:KeBei.Controls"
+             BackgroundImageSource="timg.jpg"
              Title="课程管理">
     <!--<ContentPage.Content>
         <StackLayout>
@@ -16,7 +14,9 @@
     <ContentPage.Resources>
         <Style TargetType="{x:Type ListView}">
             <Setter Property="BackgroundColor"
-                    Value="#96d1ff"/>
+                    Value="#AA96d1ff"/>
+            <Setter Property ="RowHeight"
+                    Value=" 80"/>
         </Style>
     </ContentPage.Resources>
 
@@ -26,10 +26,9 @@
     </ContentPage.ToolbarItems>
     
     <ListView x:Name="listView"
-              Margin="20"
               ItemSelected="OnListViewItemSelected">
         <ListView.ItemTemplate>
-            <DataTemplate>
+            <DataTemplate >
                 <TextCell Text="{Binding Name}"
                           TextColor="Blue"
                           Detail="{Binding StartDate}" />
