@@ -52,11 +52,12 @@ namespace KeBei.Views
                             CrossToastPopUp.Current.ShowToastSuccess("课时数最多只能为50", toastLength);
                         }
                         await App.Database_Subject.SaveSubjectAsync(subject);
-
+                        await App.Database_Curriculum.DeleteCurriculumAsync();
                         for(int i=0;i<subject.CurLenth;i++)
                         {
+                            
                             Curriculum curr = new Curriculum();
-                            curr.Name = "第" + (i+1).ToString() + "课时";
+                            curr.Name =subject.Name+ " 第" + (i+1).ToString() + "课时";
                             curr.Detail = "点击编辑"+curr.Name+"内容";
                             await App.Database_Curriculum.SaveCurriculumAsync(curr);
                         }

@@ -5,8 +5,8 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="Xaminals.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="课贝" android:theme="@style/MainTheme" android:name="crc64ea35509c08e7a49d.MainActivity">
+  <application android:label="Xaminals.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/kebei" android:debuggable="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/kebei" android:label="课贝" android:theme="@style/MainTheme" android:name="crc64ea35509c08e7a49d.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

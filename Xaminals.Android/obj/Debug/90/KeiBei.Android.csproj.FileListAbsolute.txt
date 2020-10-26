@@ -510,3 +510,4 @@ E:\C#\Xaminals\Xaminals.Android\bin\Debug\课贝.dll.mdb
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\yclass.png
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\gr.jpg
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\beike.png
+E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\kebei.ico

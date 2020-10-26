@@ -43,10 +43,9 @@ namespace KeBei.Data
             }
         }
 
-        public Task<int> DeleteCurriculumAsync(Curriculum datacell)
+        public Task<int> DeleteCurriculumAsync()
         {
-            return _database.DeleteAsync(datacell);
+            return _database.DeleteAllAsync<Curriculum>();
         }
-        
     }
 }
