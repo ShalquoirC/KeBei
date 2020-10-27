@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i2WbknkPfIV72fGJk3E5oIRnzGAIMVLvkS2mc7h4MUDkowWXxoMtw/4IOhUnsF58PGqpKhq1Uejbmo90Zv/pBw==",
+  "dgSpecHash": "oF9aFitpe7kTG6n/upS2CBEghhXJ6/Ut8lCbr2l+viel3SLh3TPcv/B210Vcz2Y1BzEX8H3CQaGgbHkqHZ2kvA==",
   "success": true,
-  "projectFilePath": "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj",
+  "projectFilePath": "D:\\KeBei\\KeBei\\Xaminals\\KeBei.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MECHREVO\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\MECHREVO\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

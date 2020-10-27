@@ -6,11 +6,18 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="20">
-                <Label Text="开始备课（到备课界面）"
-                   TextColor="ForestGreen"/>
-                <Label Text="已经有的备课记录"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                <Label Text="由于时间匆忙，目前只完成了APP的主体备课以及日程部分功能，以下为主页未来欲实现功能规划"/>
+                <Label Text="开始备课（按钮链接到备课界面）"
+                       TextColor="ForestGreen"
+                       FontSize="24"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"/>
+                <Label Text="已经有的备课记录(可滑动标签栏，类似于作业帮等APP的主页页面)"
+                       TextColor="Black"
+                       FontSize="18"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" />
+                
             </StackLayout>
         </ScrollView>
 

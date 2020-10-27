@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\KeBei\\KeBei\\Xaminals.UWP\\KeBei.UWP.csproj": {}
+  },
+  "projects": {
+    "D:\\KeBei\\KeBei\\Xaminals.UWP\\KeBei.UWP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\KeBei\\KeBei\\Xaminals.UWP\\KeBei.UWP.csproj",
+        "projectName": "KeBei.UWP",
+        "projectPath": "D:\\KeBei\\KeBei\\Xaminals.UWP\\KeBei.UWP.csproj",
+        "packagesPath": "C:\\Users\\MECHREVO\\.nuget\\packages\\",
+        "outputPath": "D:\\KeBei\\KeBei\\Xaminals.UWP\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MECHREVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {
+              "D:\\KeBei\\KeBei\\Xaminals\\KeBei.csproj": {
+                "projectPath": "D:\\KeBei\\KeBei\\Xaminals\\KeBei.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.9, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.8.0.1269, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\KeBei\\KeBei\\Xaminals\\KeBei.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\KeBei\\KeBei\\Xaminals\\KeBei.csproj",
+        "projectName": "课贝",
+        "projectPath": "D:\\KeBei\\KeBei\\Xaminals\\KeBei.csproj",
+        "packagesPath": "C:\\Users\\MECHREVO\\.nuget\\packages\\",
+        "outputPath": "D:\\KeBei\\KeBei\\Xaminals\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MECHREVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Plugin.Toast": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.8.0.1269, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

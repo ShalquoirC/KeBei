@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="KeBei.Views.ClassPage"
+             BackgroundImageSource="background.png"
              Title="班级">
     <ContentPage.Resources>
             <Color x:Key="Primary">#96d1ff</Color>

@@ -11,7 +11,7 @@ namespace KeBei
     public partial class App : Application
     {
         static Database database;
-        static DataSubject subject_database;
+
         static DataBClass bclass_database;
         static DataCurriculum curriculum_database;
         static DataIdea idea_database;

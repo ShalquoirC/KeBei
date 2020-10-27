@@ -73,14 +73,8 @@
     <AndroidResource Include="Resources\mipmap-xhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
-    <AndroidResource Include="Resources\drawable\bear.png" />
-    <AndroidResource Include="Resources\drawable\cat.png" />
     <AndroidResource Include="Resources\drawable\help.png" />
     <AndroidResource Include="Resources\drawable\info.png" />
-    <AndroidResource Include="Resources\drawable\monkey.png" />
-    <AndroidResource Include="Resources\drawable\paw.png" />
-    <AndroidResource Include="Resources\drawable\xamarin_logo.png" />
-    <AndroidResource Include="Resources\drawable\xamarinstore.jpg" />
     <AndroidResource Include="Resources\drawable\random.png" />
     <AndroidResource Include="Resources\drawable\back.png" />
     <AndroidResource Include="Resources\drawable\photo.jpg" />
@@ -135,6 +129,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\mipmap-mdpi\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\kebei.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\background.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\Xaminals\\Xaminals.iOS\\Xaminals.iOS.csproj": {}
+    "C:\\Users\\Worty\\Desktop\\Xaminals\\Xaminals\\Xaminals.iOS\\Xaminals.iOS.csproj": {}
   },
   "projects": {
-    "E:\\C#\\Xaminals\\Xaminals.iOS\\Xaminals.iOS.csproj": {
+    "C:\\Users\\Worty\\Desktop\\Xaminals\\Xaminals\\Xaminals.iOS\\Xaminals.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\Xaminals\\Xaminals.iOS\\Xaminals.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Worty\\Desktop\\Xaminals\\Xaminals\\Xaminals.iOS\\Xaminals.iOS.csproj",
         "projectName": "Xaminals.iOS",
-        "projectPath": "E:\\C#\\Xaminals\\Xaminals.iOS\\Xaminals.iOS.csproj",
-        "packagesPath": "C:\\Users\\MECHREVO\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\Xaminals\\Xaminals.iOS\\obj\\",
+        "projectPath": "C:\\Users\\Worty\\Desktop\\Xaminals\\Xaminals\\Xaminals.iOS\\Xaminals.iOS.csproj",
+        "packagesPath": "C:\\Users\\Worty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Worty\\Desktop\\Xaminals\\Xaminals\\Xaminals.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\MECHREVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Worty\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj": {
-                "projectPath": "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj"
+              "C:\\Users\\Worty\\Desktop\\Xaminals\\Xaminals\\Xaminals\\KeBei.csproj": {
+                "projectPath": "C:\\Users\\Worty\\Desktop\\Xaminals\\Xaminals\\Xaminals\\KeBei.csproj"
               }
             }
           }
@@ -65,20 +65,20 @@
         }
       }
     },
-    "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj": {
+    "C:\\Users\\Worty\\Desktop\\Xaminals\\Xaminals\\Xaminals\\KeBei.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj",
+        "projectUniqueName": "C:\\Users\\Worty\\Desktop\\Xaminals\\Xaminals\\Xaminals\\KeBei.csproj",
         "projectName": "课贝",
-        "projectPath": "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj",
-        "packagesPath": "C:\\Users\\MECHREVO\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\Xaminals\\Xaminals\\obj\\",
+        "projectPath": "C:\\Users\\Worty\\Desktop\\Xaminals\\Xaminals\\Xaminals\\KeBei.csproj",
+        "packagesPath": "C:\\Users\\Worty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Worty\\Desktop\\Xaminals\\Xaminals\\Xaminals\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\MECHREVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Worty\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -136,7 +136,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

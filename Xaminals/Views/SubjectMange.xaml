@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KeBei.Views.SubjectMange"
-             BackgroundImageSource="timg.jpg"
+             BackgroundImageSource="background.png"
              Title="课程管理">
     <!--<ContentPage.Content>
         <StackLayout>

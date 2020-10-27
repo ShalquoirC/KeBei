@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rWwL0WTgUlUbMWO31sl2IOhdTUSyD7XipT/+i/3aPVw9PrKuXY29jYNuCiG3c4I9rRkLMKFlDqGW2Ole+ct2+Q==",
+  "dgSpecHash": "KcN7Au2GbDA9VOCPZX32ZBfFNbSQteyf0YEg12AWjWdeWDO6CGXLu/wLOq2i7sb0gncTqazpSXcl1pUhAqpzzw==",
   "success": true,
-  "projectFilePath": "E:\\C#\\Xaminals\\Xaminals.iOS\\Xaminals.iOS.csproj",
+  "projectFilePath": "D:\\KeBei\\KeBei\\Xaminals.iOS\\KeBei.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MECHREVO\\.nuget\\packages\\plugin.toast\\2.2.0\\plugin.toast.2.2.0.nupkg.sha512",
     "C:\\Users\\MECHREVO\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",

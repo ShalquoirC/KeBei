@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="KeBei.Views.CurrPage"
+             BackgroundImageSource="background.png"
              Title="课时">
     <ContentPage.Resources>
         <Style TargetType="{x:Type ListView}">
@@ -14,7 +15,6 @@
                      Clicked="OnCurrAddedClicked" />
     </ContentPage.ToolbarItems>
     <ListView x:Name="listView"
-              Margin="20"
               ItemSelected="OnListViewItemSelected">
         <ListView.ItemTemplate>
             <DataTemplate>

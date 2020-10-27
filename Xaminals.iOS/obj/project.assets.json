@@ -1621,11 +1621,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C#\\Xaminals\\Xaminals.iOS\\Xaminals.iOS.csproj",
-      "projectName": "Xaminals.iOS",
-      "projectPath": "E:\\C#\\Xaminals\\Xaminals.iOS\\Xaminals.iOS.csproj",
+      "projectUniqueName": "D:\\KeBei\\KeBei\\Xaminals.iOS\\KeBei.iOS.csproj",
+      "projectName": "KeBei.iOS",
+      "projectPath": "D:\\KeBei\\KeBei\\Xaminals.iOS\\KeBei.iOS.csproj",
       "packagesPath": "C:\\Users\\MECHREVO\\.nuget\\packages\\",
-      "outputPath": "E:\\C#\\Xaminals\\Xaminals.iOS\\obj\\",
+      "outputPath": "D:\\KeBei\\KeBei\\Xaminals.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1646,8 +1646,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj": {
-              "projectPath": "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj"
+            "D:\\KeBei\\KeBei\\Xaminals\\KeBei.csproj": {
+              "projectPath": "D:\\KeBei\\KeBei\\Xaminals\\KeBei.csproj"
             }
           }
         }

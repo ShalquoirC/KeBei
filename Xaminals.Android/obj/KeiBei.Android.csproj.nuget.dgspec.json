@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\Xaminals\\Xaminals.Android\\KeiBei.Android.csproj": {}
+    "D:\\KeBei\\KeBei\\Xaminals.Android\\KeiBei.Android.csproj": {}
   },
   "projects": {
-    "E:\\C#\\Xaminals\\Xaminals.Android\\KeiBei.Android.csproj": {
+    "D:\\KeBei\\KeBei\\Xaminals.Android\\KeiBei.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\Xaminals\\Xaminals.Android\\KeiBei.Android.csproj",
+        "projectUniqueName": "D:\\KeBei\\KeBei\\Xaminals.Android\\KeiBei.Android.csproj",
         "projectName": "KeiBei.Android",
-        "projectPath": "E:\\C#\\Xaminals\\Xaminals.Android\\KeiBei.Android.csproj",
+        "projectPath": "D:\\KeBei\\KeBei\\Xaminals.Android\\KeiBei.Android.csproj",
         "packagesPath": "C:\\Users\\MECHREVO\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\Xaminals\\Xaminals.Android\\obj\\",
+        "outputPath": "D:\\KeBei\\KeBei\\Xaminals.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj": {
-                "projectPath": "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj"
+              "D:\\KeBei\\KeBei\\Xaminals\\KeBei.csproj": {
+                "projectPath": "D:\\KeBei\\KeBei\\Xaminals\\KeBei.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj": {
+    "D:\\KeBei\\KeBei\\Xaminals\\KeBei.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj",
+        "projectUniqueName": "D:\\KeBei\\KeBei\\Xaminals\\KeBei.csproj",
         "projectName": "课贝",
-        "projectPath": "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj",
+        "projectPath": "D:\\KeBei\\KeBei\\Xaminals\\KeBei.csproj",
         "packagesPath": "C:\\Users\\MECHREVO\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\Xaminals\\Xaminals\\obj\\",
+        "outputPath": "D:\\KeBei\\KeBei\\Xaminals\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

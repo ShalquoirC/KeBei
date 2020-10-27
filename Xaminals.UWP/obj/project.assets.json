@@ -10308,11 +10308,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C#\\Xaminals\\Xaminals.UWP\\Xaminals.UWP.csproj",
-      "projectName": "Xaminals.UWP",
-      "projectPath": "E:\\C#\\Xaminals\\Xaminals.UWP\\Xaminals.UWP.csproj",
+      "projectUniqueName": "D:\\KeBei\\KeBei\\Xaminals.UWP\\KeBei.UWP.csproj",
+      "projectName": "KeBei.UWP",
+      "projectPath": "D:\\KeBei\\KeBei\\Xaminals.UWP\\KeBei.UWP.csproj",
       "packagesPath": "C:\\Users\\MECHREVO\\.nuget\\packages\\",
-      "outputPath": "E:\\C#\\Xaminals\\Xaminals.UWP\\obj\\",
+      "outputPath": "D:\\KeBei\\KeBei\\Xaminals.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -10334,8 +10334,8 @@
       "frameworks": {
         "uap10.0.17763": {
           "projectReferences": {
-            "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj": {
-              "projectPath": "E:\\C#\\Xaminals\\Xaminals\\KeBei.csproj"
+            "D:\\KeBei\\KeBei\\Xaminals\\KeBei.csproj": {
+              "projectPath": "D:\\KeBei\\KeBei\\Xaminals\\KeBei.csproj"
             }
           }
         }
@@ -10393,7 +10393,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "检测到包降级: Microsoft.NETCore.UniversalWindowsPlatform 从 6.2.10 降级到 6.2.9。直接从项目引用包以选择不同版本。 \r\n Xaminals.UWP -> Xamarin.Forms 4.8.0.1269 -> Microsoft.NETCore.UniversalWindowsPlatform (>= 6.2.10) \r\n Xaminals.UWP -> Microsoft.NETCore.UniversalWindowsPlatform (>= 6.2.9)",
+      "message": "检测到包降级: Microsoft.NETCore.UniversalWindowsPlatform 从 6.2.10 降级到 6.2.9。直接从项目引用包以选择不同版本。 \r\n KeBei.UWP -> Xamarin.Forms 4.8.0.1269 -> Microsoft.NETCore.UniversalWindowsPlatform (>= 6.2.10) \r\n KeBei.UWP -> Microsoft.NETCore.UniversalWindowsPlatform (>= 6.2.9)",
       "libraryId": "Microsoft.NETCore.UniversalWindowsPlatform",
       "targetGraphs": [
         "UAP,Version=v10.0.17763",
