@@ -1,5 +1,4 @@
-*保留了一个cat的操作样本（教程可以参照*
-*https://docs.microsoft.com/zh-cn/xamarin/xamarin-forms/app-fundamentals/shell/introduction*
+
 
 # —————————————————————————————————————————————————————————————— #
 功能： 
