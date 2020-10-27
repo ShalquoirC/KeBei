@@ -511,6 +511,7 @@ E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\yclass.png
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\gr.jpg
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\beike.png
 E:\C#\Xaminals\Xaminals.Android\obj\Debug\90\res\drawable\kebei.ico
+<<<<<<< HEAD
 C:\Users\Worty\Desktop\Xaminals\Xaminals\Xaminals.Android\bin\Debug\课贝.Android.dll
 C:\Users\Worty\Desktop\Xaminals\Xaminals\Xaminals.Android\bin\Debug\课贝.Android.pdb
 C:\Users\Worty\Desktop\Xaminals\Xaminals\Xaminals.Android\bin\Debug\com.companyname.xaminals.apk
@@ -1532,3 +1533,5 @@ D:\KeBei\KeBei\Xaminals.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 D:\KeBei\KeBei\Xaminals.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 D:\KeBei\KeBei\Xaminals.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 D:\KeBei\KeBei\Xaminals.Android\obj\Debug\90\res\drawable\background.png
+=======
+>>>>>>> a4261c95c09b54f0aa59aeb1296c05dd62207641
